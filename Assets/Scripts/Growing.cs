@@ -30,6 +30,7 @@ public class Growing : MonoBehaviour
         {
             transform.localScale *= shrinkFactor; // Decrease the scale
         }
+
     }
 
    
