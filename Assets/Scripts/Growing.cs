@@ -4,20 +4,23 @@ public class Growing : MonoBehaviour
 {
     public float growFactor = 1.5f; // How much to increase the scale
     public float shrinkFactor = 0.5f; // How much to decrease the scale
-    public Vector3 minimumscale;
-    public Vector3 desiredscale;
+    private Vector3 minimumscale, desiredscale;
+    private int ms, ds;
 
     
     void Start()
     {
         Vector3 ms = minimumscale;
         Vector3 ds = desiredscale;
+        ms = new Vector3 (1f, 1f, 1f);
+        ds = new Vector3 (0.5f, 0.5f, 0.5f);
     }
 
     void Update()
     {
         Vector3 minimumscale = transform.localScale;
         Vector3 desiredscale = transform.localScale;
+        
     }
 
     void OnCollisionEnter(Collision collision)
