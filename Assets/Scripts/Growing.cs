@@ -27,7 +27,7 @@ public class Growing : MonoBehaviour
         {
             if ((transform.localScale * shrinkFactor).magnitude > minimumscale.magnitude)
             {
-                transform.localScale *= shrinkFactor; // Increase the scale
+                transform.localScale *= shrinkFactor; // Decrease the scale
             }
         }
 
