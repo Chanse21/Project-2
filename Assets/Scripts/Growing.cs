@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class Growing : MonoBehaviour
 {
-    public float growFactor = 1.5f; // How much to increase the scale
-    public float shrinkFactor = 0.5f; // How much to decrease the scale
+    public float growFactor = 2.5f; // How much to increase the scale
+    public float shrinkFactor = 0.1f; // How much to decrease the scale
     private Vector3 minimumscale, maximumscale;
 
     
     void Start()
     {
        
-        minimumscale = new Vector3 (.1f, .1f, .1f);
-        maximumscale = new Vector3 (2f, 2f, 2f);
+        minimumscale = new Vector3 (.3f, .3f, .3f);
+        maximumscale = new Vector3 (4f, 4f, 4f);
     }
 
     void OnCollisionEnter(Collision collision)
