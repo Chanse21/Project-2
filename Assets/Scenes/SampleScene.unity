@@ -965,8 +965,12 @@ PrefabInstance:
       value: Road Section
       objectReference: {fileID: 0}
     - target: {fileID: 7393345087925222556, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393345087925222556, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 156.1
+      value: 147.2
       objectReference: {fileID: 0}
     - target: {fileID: 7818901001163558889, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
       propertyPath: m_LocalPosition.x
