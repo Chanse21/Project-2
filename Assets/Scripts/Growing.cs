@@ -10,7 +10,7 @@ public class Growing : MonoBehaviour
     void Start()
     {
        
-        minimumscale = new Vector3 (.3f, .3f, .3f);
+        minimumscale = new Vector3 (.1f, .1f, .1f);
         maximumscale = new Vector3 (4f, 4f, 4f);
     }
 

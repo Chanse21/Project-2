@@ -4,14 +4,14 @@ public class PlayerController : MonoBehaviour
 {
     public int speed;
     public Vector3 jump;
-    public float jumpForce = 2.0f;
+    public float jumpForce = 3.0f;
     public bool isGrounded;
     Rigidbody rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        jump = new Vector3(0.0f, 2.0f, 0.0f);
+        jump = new Vector3(0.0f, 3.0f, 0.0f);
     }
 
     void OnCollisionStay()
