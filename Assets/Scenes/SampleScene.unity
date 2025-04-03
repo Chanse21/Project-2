@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 9773343}
   - component: {fileID: 9773344}
   - component: {fileID: 9773345}
+  - component: {fileID: 9773346}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -227,7 +228,7 @@ Transform:
   m_GameObject: {fileID: 9773337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.3, y: 9.2, z: 13.62}
+  m_LocalPosition: {x: -16.3, y: 9.2, z: -1.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -301,6 +302,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d88969c94ba382b48856224e7c7ab5ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9773346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9773337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70fffae5126491f4fb911e13c7acc883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &485272372
@@ -1152,6 +1165,7 @@ PrefabInstance:
     - {fileID: 8233103107719549151, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
     - {fileID: 5487687995716585347, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
     - {fileID: 3713632883632399591, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
+    - {fileID: 299571750428525995, guid: 53b9053a00f630f4889023c724207dd4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

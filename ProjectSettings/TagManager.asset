@@ -7,6 +7,7 @@ TagManager:
   - GrowObject
   - ShrinkObject
   - Trigger
+  - Hazard
   layers:
   - Default
   - TransparentFX

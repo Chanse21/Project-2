@@ -42,10 +42,10 @@ public class PlayerController : MonoBehaviour
         }
         transform.position = newPosition;
 
-            if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-            {
-                rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-                isGrounded = false;
-            }
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
         }
+    }
 }
