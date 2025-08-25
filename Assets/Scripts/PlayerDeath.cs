@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class PlayerDeath : MonoBehaviour
         if (collision.gameObject.CompareTag("Hazard")) // Replace "Hazard" with the tag of the collision object
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Restart Scene");
         }
     }
 }
